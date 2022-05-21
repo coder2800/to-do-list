@@ -1,0 +1,47 @@
+:root{
+    --div-background-color:black;
+    --text-color:white;
+    --button-background-color:blue;
+}
+body{
+    background-color: var(--div-background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+input{
+    height: 40px;
+    width: 200px;
+}
+ul{
+    width: 20vw;
+    height: 40vh;
+    font-size: 30px;
+    /* background-color: aqua; */
+}
+.done{
+    text-decoration: line-through;
+}
+button{
+    background-color: var(--button-background-color);
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 90px;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+li{
+    background-color: rgb(37, 37, 37);
+    margin: 2px;
+    width: 90%;
+}
+li:hover{
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+}
